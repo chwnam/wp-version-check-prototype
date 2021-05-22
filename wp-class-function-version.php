@@ -1,5 +1,18 @@
 <?php
+/**
+ * File: wp-class-function-version.php
+ *
+ * 워드프레스 코에에서 모든 클래스와 함수 정의, 그리고 해당 부분의 Doc Comment 부분을 분석하여
+ * 해당 함수의 메타 정보를 수집합니다.
+ *
+ * 수집된 파일은 JSON 형색으로 저장합니다.
+ *
+ * 프로젝트 루트에 `wp` 디렉토리를 생성하고, 거기에 워드프레스 코어를 다운로드 받아 주세요.
+ */
 
+/**
+ * Class WP_Class_Function_Version
+ */
 class WP_Class_Function_Version {
 	private $tokens;
 
